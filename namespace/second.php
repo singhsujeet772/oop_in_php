@@ -1,12 +1,12 @@
 <?php
-    namespace pro\name\command;
+    namespace test\command\version;
     class product{
         function __construct()
         {
-            echo "product page";
+            echo "testing page<br>";
         }
         public function wow(){
-            echo "wow from product page";
+            echo "wow from testing page<br>";
         }
     }
 
